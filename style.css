@@ -25,6 +25,15 @@ img + div{
   display: inline-block;
 }
 
-h1{
-  background-color: blue;
+.right-container{
+  display: grid;
+  flex-direction: row;
+  height: 100vh;
+  width: 56vw;
+  float: right;
+}
+
+.right-div{
+  padding: 40px;
+  font-size: 7em;
 }
