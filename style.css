@@ -3,10 +3,14 @@
   margin: 0;
   padding: 0;
 }
+body{
+  display: flex;
+}
 
 img{
   position: absolute;
   height: 100vh;
+  min-width: none;
   width: 44vw;
 }
 
@@ -28,12 +32,36 @@ img + div{
 .right-container{
   display: grid;
   flex-direction: row;
+  grid-template-rows: 1000px 1000px 1000px;
   height: 100vh;
   width: 56vw;
   float: right;
+  align-content: center;
+  background-color: rgb(241, 241, 241);
 }
 
 .right-div{
   padding: 40px;
   font-size: 7em;
+}
+
+.title{
+  line-height: 150px;
+  margin-bottom: 500px;
+}
+span{
+  display: block;
+}
+p{
+  margin-top: 100px;
+}
+
+.form{
+  background-color: white;
+}
+
+.form-field{
+  width: 125rem;
+  flex-wrap: wrap;
+  font-size: 6rem;
 }
