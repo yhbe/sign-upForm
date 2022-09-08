@@ -11,6 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylereset.css" />
     <script src="script.js" defer></script>
     <title>Document</title>
   </head>
@@ -26,26 +27,40 @@
       <div class="right-div title">
         This is not a real online service! You know you need something like this
         in your life to help you realize your deepest dreams.
-        <span>Sign up now to get started.</span>
+        <span class="signup">Sign up now to get started.</span>
 
         <p>You know you want to</p>
       </div>
       <div class="right-div form">
         <form action="">
-          <h2>Lets do this!</h2>
+          <h3>Lets do this!</h3>
           <div class="form-field">
-            <label for="firstname">FIRST NAME</label>
-            <input type="text" name="firstname" id="firstname" />
-            <label for="lastname">LAST NAME</label>
-            <input type="text" name="lastname" id="lastname" />
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
-            <label for="phone">PHONE NUMBER</label>
-            <input type="number" name="phone" id="phone" />
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" />
-            <label for="confirm">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm" id="confirm" />
+            <div class="ABC">
+              <label for="firstname">FIRST NAME</label>
+              <p><input type="text" name="firstname" id="firstname" /></p>
+            </div>
+            <div>
+              <label for="lastname">LAST NAME</label>
+              <p><input type="text" name="lastname" id="lastname" /></p>
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <p><input type="email" name="email" id="email" /></p>
+            </div>
+            <div>
+              <label for="number">PHONE NUMBER</label>
+              <p><input type="number" name="phone" id="phone" /></p>
+            </div>
+
+            <div>
+              <label for="password">PASSWORD</label>
+              <p><input type="password" name="password" id="password" /></p>
+            </div>
+
+            <div>
+              <label for="confirm">CONFIRM PASSWORD</label>
+              <p><input type="password" name="confirm" id="confirm" /></p>
+            </div>
           </div>
         </form>
       </div>

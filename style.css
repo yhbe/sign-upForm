@@ -1,28 +1,25 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
 body{
   display: flex;
+  height: 100vh; 
+  width: 100vw;
 }
 
 img{
   position: absolute;
   height: 100vh;
-  min-width: none;
-  width: 44vw;
+  width: 35vw;
 }
 
 img + div{
   color: antiquewhite;
   position: relative;
   font-size: 600px;
-  padding-left: 4rem;
   font-family: 'Forum', cursive, sans-serif;
   background-color: rgba(16, 16, 37, 0.233);
-  width: 44vw;
+  width: 35vw;
   top: 70px;
+  display: flex;
 }
 
 .image-container{
@@ -32,16 +29,14 @@ img + div{
 .right-container{
   display: grid;
   flex-direction: row;
-  grid-template-rows: 1000px 1000px 1000px;
-  height: 100vh;
-  width: 56vw;
+  grid-template-rows: auto auto auto;
   float: right;
   align-content: center;
   background-color: rgb(241, 241, 241);
 }
 
 .right-div{
-  padding: 40px;
+  padding-left: 150px;
   font-size: 7em;
 }
 
@@ -49,11 +44,9 @@ img + div{
   line-height: 150px;
   margin-bottom: 500px;
 }
-span{
+
+.signup{
   display: block;
-}
-p{
-  margin-top: 100px;
 }
 
 .form{
@@ -61,7 +54,25 @@ p{
 }
 
 .form-field{
-  width: 125rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto ;
   font-size: 6rem;
+  width: 3000px;
+  gap: 50px;
+  margin: 800px 0px;
 }
+
+
+input{
+  width: 800px;
+  height:80px;
+  border-radius: 12px;
+}
+
+.input-field{
+  display: flex;
+}
+
+
+
+
