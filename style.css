@@ -148,7 +148,9 @@ input:focus{
 
 }
 
-#confirm:invalid, #password:invalid{
+
+
+.invalidfield{
   border: 15px solid;
   border-color: red;
 }

@@ -24,8 +24,8 @@ function thesame() {
     confirm.setCustomValidity("");
     errormessage.setAttribute("hidden", true);
   } else if (passwordvalue != "" && passwordvalue != confirmvalue) {
-    password.setCustomValidity("Invalid field.");
-    confirm.setCustomValidity("Invalid field.");
+    password.setAttribute("class", "invalidfield");
+    confirm.setAttribute("class", "invalidfield");
     errormessage.removeAttribute("hidden");
   }
 }
