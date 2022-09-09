@@ -68,6 +68,7 @@ img + div{
 .form{
   background-color: white;
   font-family: 'Courier New', Courier, monospace;
+  padding: 100px;
 }
 
 .form-title{
@@ -98,9 +99,11 @@ input{
 
 
 input:focus{
-  border-color: green;
+  outline: none;
+  border: 1px solid rgb(38, 70, 253);
   box-shadow: 5px 5px 50px 1px rgba(0, 0, 255, .2);
 }
+
 
 
 
@@ -113,20 +116,25 @@ input:focus{
   margin-bottom: -300px;
 }
 .footerButton{
-  margin: 100px;
+  margin: 100px 0px;
   font-size: 1em;
   width: 900px;
   height: 200px;
   border: none;
-  background-color: lightgreen;
+  background-color: rgb(31, 158, 31);
   color: white;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
   border-radius: 40px;
 }
 
 #confirm:invalid, #password:invalid{
   border: 15px solid;
   border-color: red;
+}
+
+
+.error{
+  color: red;
 }
 
 
