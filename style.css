@@ -109,6 +109,7 @@ input{
   border-color: rgb(228, 225, 225);
   font-size: 1em;
   padding-left: 15px;
+  margin-bottom: 20px;
 }
 
 
@@ -142,6 +143,12 @@ input:focus{
   cursor: pointer;
 }
 
+.footerButton:active{
+  background-color: white;
+  color: black;
+
+}
+
 #confirm:invalid, #password:invalid{
   border: 15px solid;
   border-color: red;
@@ -156,5 +163,15 @@ input:focus{
   color: rgb(31, 158, 31);
   font-weight: bold;
   cursor: pointer;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white; 
+    text-decoration: none;
+    font-weight: normal;
 }
 
