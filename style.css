@@ -21,6 +21,16 @@ img + div{
   width: 35vw;
   top: 70px;
   display: flex;
+  left: 10px;
+}
+
+.credit{
+  position: relative;
+  font-size: 5em;
+  top: 3025px;
+  color: rgba(255, 255, 255, 0.795);
+  left: 10px;
+
 }
 
 
@@ -48,13 +58,14 @@ img + div{
 
 .right-div, .disclaimer{
   font-size: 7em;
-  padding-left: 150px;
+  padding-left: 200px;
 }
 
 .title{
   line-height: 150px;
   margin-bottom: 500px;
   font-weight: 900;
+  margin-top: -500px;
 }
 
 .signup{
@@ -68,13 +79,15 @@ img + div{
 .form{
   background-color: white;
   font-family: 'Courier New', Courier, monospace;
-  padding: 100px;
+  box-shadow: 5px 5px 50px 1px rgba(0, 0, 0, 0.2);
+
 }
 
-.form-title{
-  margin-top: 90px;
+.form-letsDoThis{
+  margin-top: 100px;
   font-weight: bold;
-  margin-bottom: -100px;
+  margin-bottom: -400px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-field{
@@ -83,8 +96,9 @@ img + div{
   font-size: 5rem;
   width: 3000px;
   gap: 80px;
-  margin: 300px 0;
+  margin: 500px 0px 175px 0px;
   line-height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -100,8 +114,8 @@ input{
 
 input:focus{
   outline: none;
-  border: 1px solid rgb(38, 70, 253);
-  box-shadow: 5px 5px 50px 1px rgba(0, 0, 255, .2);
+  border: 1px solid rgb(31, 158, 31);
+  box-shadow: 5px 5px 50px 1px rgba(31, 158, 31, .2);
 }
 
 
@@ -125,6 +139,7 @@ input:focus{
   color: white;
   box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
   border-radius: 40px;
+  cursor: pointer;
 }
 
 #confirm:invalid, #password:invalid{
@@ -137,4 +152,9 @@ input:focus{
   color: red;
 }
 
+.login{
+  color: rgb(31, 158, 31);
+  font-weight: bold;
+  cursor: pointer;
+}
 
