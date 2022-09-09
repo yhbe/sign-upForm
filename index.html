@@ -36,23 +36,23 @@
       </div>
       <div class="right-div form">
         <h3 class="form-letsDoThis">Let's do this!</h3>
-        <form action="">
+        <form action="" id="form">
           <div class="form-field">
             <div class="ABC">
               <label for="firstname">FIRST NAME</label>
-              <p><input type="text" name="firstname" id="firstname" /></p>
+              <p><input type="text" name="firstname" id="firstname" required/></p>
             </div>
             <div>
               <label for="lastname">LAST NAME</label>
-              <p><input type="text" name="lastname" id="lastname" /></p>
+              <p><input type="text" name="lastname" id="lastname" required/></p>
             </div>
             <div>
               <label for="email">EMAIL</label>
-              <p><input type="email" name="email" id="email" /></p>
+              <p><input type="email" name="email" id="email" required/></p>
             </div>
             <div>
               <label for="number">PHONE NUMBER</label>
-              <p><input type="number" name="phone" id="phone" /></p>
+              <p><input type="number" name="phone" id="phone" required/></p>
             </div>
 
             <div>
@@ -68,7 +68,7 @@
         </form>
       </div>
       <div class="right-div" id="footer">
-        <button class="footerButton">Create Account</button>
+        <button type="submit" form="form" class="footerButton">Create Account</button>
         <p>Already have an account? <span class="login">Log in</span></p>
       </div>
     </div>
