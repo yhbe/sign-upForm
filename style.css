@@ -1,4 +1,8 @@
 
+#my{
+  zoom: 25%;
+  }
+
 body{
   display: flex;
   height: 100vh; 
